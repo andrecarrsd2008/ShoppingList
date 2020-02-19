@@ -9,6 +9,9 @@ const Header = ({title}) => {
   );
 };
 
+Header.defaultProps = {
+  title: 'Shopping List',
+};
 
 const sytles = StyleSheet.create({
   header: {
@@ -23,4 +26,4 @@ const sytles = StyleSheet.create({
    }
 });
 
-export default App;
+export default Header;
